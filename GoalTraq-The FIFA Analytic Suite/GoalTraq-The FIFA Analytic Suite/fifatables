@@ -1,0 +1,13 @@
+import pandas as pd  
+from string import ascii_uppercase as alphabet
+import pickle
+
+fifa_tables = pd.read_html('https://web.archive.org/web/20221115040351/https://en.wikipedia.org/wiki/2022_FIFA_World_Cup')    
+
+fifa_tables[12]
+fifa_tables[19]
+fifa_tables[26]
+fifa_tables[61]
+
+
+                                                         
