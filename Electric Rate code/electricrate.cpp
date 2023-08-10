@@ -17,7 +17,7 @@ int main(){
     map<string, Provider>:: iterator it;
 
     string line = "";
-    // TO DO IMPROVEMENT: skip first line of csv file
+    // skip first line of csv file
     while(getline(ratesFile, line)) // loop to parse data from csv into hashMap
     {
         string zip;
