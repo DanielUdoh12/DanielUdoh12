@@ -1,8 +1,8 @@
-- 👋 Hi, I’m @DanielUdoh12
-- 👀 I’m interested in Software development and cybersecurity
+- 👋 Howdy! I am Daniel Udoh
+- 👀 I’m interested in Software Development, Data Analyzing, and Information Technology
 - 🌱 I’m currently learning SQL and Java
-- 💞️ I’m looking to collaborate on
-- 📫 How to reach me
+- 💞️ I’m looking for challenging internship opportunities to push me to grow as a computer programmer and Data Analyst
+- 📫 How to reach me: udohdanny43@gmail.com, 9793839314
 
 <!---
 DanielUdoh12/DanielUdoh12 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
