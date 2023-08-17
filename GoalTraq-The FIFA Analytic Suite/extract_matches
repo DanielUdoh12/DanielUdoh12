@@ -33,15 +33,15 @@ def get_games(year):
 
     return df_football
 
-world_cup = [get_games(year) for year in world_cup_years]
+
 
 #final data frame, which is essentially all the tables combined in one
+world_cup = [get_games(year) for year in world_cup_years]
 df_world_cup = pd.concat(world_cup, ignore_index=True) #this combines all the data/table for all the years in one table
 df_world_cup.to_csv('World_cup_Historical_Data.csv', index = False) #index=false, removes the index from the file when exporting it
 
 
-
-#fixture for future games
-df_fixture = get_games(2026)
-df_fixture.to_csv('fifa_worldcupfixture.csv', index= False)
+#for fixtures
+df_fixture = get_games(2022)
+df_fixture.to_csv('fifa_worldcupfixture.csv', index=False)
 
