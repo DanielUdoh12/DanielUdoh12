@@ -12,7 +12,7 @@ def get_games(year):
     info = feedback.text # this streamlines the information given from the website to display just text
 
     soup = BeautifulSoup(info, 'lxml') # extracts data in structured format (more readable format)
-
+ 
     all_matches = soup.find_all('div', class_= 'footballbox') #allows you to get all the data for all the games(list of games)
 
         #create list to store data in a table
@@ -21,7 +21,7 @@ def get_games(year):
     away = []
 
     for games in all_matches:
-        home.append (games.find('th',class_='fhome').get_text()) #this gets the text (teamname) of the home team from the file
+        home.append (games.find('th',class_='fhome').get_text()) #this gets the text (team name) of the home team from the file
         score.append(games.find('th',class_='fscore').get_text()) #this gets the text (score) of both from the file
         away.append(games.find('th',class_='faway').get_text()) #this gets the text (teamname) of the away team from the file
         
